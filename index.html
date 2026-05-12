@@ -5364,7 +5364,8 @@ summary_df |&gt;
   row_spec(which(c(
     anova_vas$ANOVA[anova_vas$ANOVA$Effect==&quot;condition&quot;,&quot;p&quot;],
     anova_vas$ANOVA[anova_vas$ANOVA$Effect==&quot;valence&quot;,&quot;p&quot;],
-    anova_vas_ts$ANOVA[anova_vas_ts$ANOVA$Effect==&quot;condition:valence:trial_in_mini_f&quot;,&quot;p&quot;],
+    anova_vas_ts$`Sphericity Corrections`[
+    anova_vas_ts$`Sphericity Corrections`$Effect==&quot;condition:valence:trial_in_mini_f&quot;,&quot;p[GG]&quot;],
     anova_rt$ANOVA[anova_rt$ANOVA$Effect==&quot;condition&quot;,&quot;p&quot;],
     anova_rt$ANOVA[anova_rt$ANOVA$Effect==&quot;valence&quot;,&quot;p&quot;],
     anova_rt$ANOVA[anova_rt$ANOVA$Effect==&quot;condition:valence&quot;,&quot;p&quot;]
@@ -5504,7 +5505,7 @@ response speed independently of valence.</li>
 <hr />
 <p><em>Report generated automatically from raw <code>*_FULL.csv</code>
 files.</em><br />
-<em>2026-05-12 14:45</em></p>
+<em>2026-05-12 15:03</em></p>
 </div>
 </div>
 
